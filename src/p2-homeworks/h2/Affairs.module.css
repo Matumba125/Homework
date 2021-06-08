@@ -1,3 +1,14 @@
-.someClass {
+.affair {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-items: center;
+}
 
+.button{
+    margin-left: 25px;
+}
+
+.priority {
+    padding-left: 20px;
 }

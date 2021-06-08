@@ -1,81 +1,49 @@
 .message {
-    width: 450px;
-    height: 100px;
-    display: grid;
-    margin: 0 auto;
-    grid-template-areas:
-    "avatar content";
-    grid-template-columns: 10% 80%;
-    grid-template-rows: 90%;
-    grid-gap: 5px;
-    background-color: green;
-    align-content: center;
+    display: flex;
+    align-items: flex-end;
+
+    margin: 10px;
+    padding: 10px;
 }
 
 .avatar {
-    display: grid;
-    grid-area: avatar;
-    align-content: flex-end;
-    justify-content: center;
-    padding-bottom: 5px;
-    margin-top: 10px;
+    width: 50px;
+    height: 50px;
 
-}
-
-.message img {
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
 }
 
-.messageContent {
-    height: 60px;
-    margin-left: -5px;
-    grid-area: content;
-    display: grid;
-    grid-template-areas:
-    "name name name"
-    "text text text"
-    ". . time";
-    grid-template-columns: auto;
-    grid-template-rows: 15% 40% 5%;
-    grid-row-gap: 8px;
-    padding: 10px 10px 10px 40px ;
-    background-color: rgb(24, 37, 51);
-    border-radius: 15px;
-    clip-path: polygon(0 55px, 25px 55px, 25px 0, 100% 0, 100% 100%, 0 100%);
 
+.messageContent {
+    padding: 10px;
+
+    border-radius: 5px 5px 5px 0;
+    background-color: rgb(24, 37, 51);
 }
 
-.messageContent:before {
-    display: block;
-    position: absolute;
-    content: '';
-    width: 40px;
-    height: 30px;
-    margin-top: 45px;
-    margin-left: -55px;
-    border-radius: 0 0 100% 0;
-    background-color: green;
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgb(24, 37, 51) 0);
 }
 
 .name {
-    display: grid;
-    grid-area: name;
+    font-size: 20px;
     color: rgb(180, 123, 184);
-    align-content: center;
 }
 
 .text {
-    grid-area: text;
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+
     color: rgb(245, 245, 245);
 }
 
 .time {
-    display: grid;
-    grid-area: time;
-    align-content: flex-end;
+    display: flex;
     justify-content: flex-end;
+
     color: rgb(109, 127, 143);
 
 }

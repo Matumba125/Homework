@@ -11,9 +11,10 @@ type messageDataPropsType = {
 function Message(props: messageDataPropsType) {
     return (
         <div className={styles.message}>
-            <div className={styles.avatar}>
-                <img src={props.avatar} alt="avatar"/>
-            </div>
+                <img src={props.avatar} alt="avatar" className={styles.avatar}/>
+
+            <div className={styles.angle}></div>
+
             <div className={styles.messageContent}>
                 <div className={styles.name}>{props.name}</div>
                 <div className={styles.text}>{props.message}</div>
