@@ -1,5 +1,9 @@
-.someClass {
-
+.input {
+    background-color: green;
+}
+.errorInput{
+    background-color: green;
+    border: 1px solid red;
 }
 
 .error {
