@@ -1,4 +1,4 @@
-import React, {ButtonHTMLAttributes, DetailedHTMLProps} from 'react'
+import React, {ButtonHTMLAttributes, DetailedHTMLProps, MouseEventHandler} from 'react'
 import s from './SuperButton.module.css'
 
 // тип пропсов обычной кнопки, children в котором храниться название кнопки там уже описан
@@ -15,6 +15,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = props => {
         className,
         ...restProps// все остальные пропсы попадут в объект restProps, там же будет children
     } = props
+
 
     const finalClassName = `${red ? s.red : s.default} ${className}`
 
