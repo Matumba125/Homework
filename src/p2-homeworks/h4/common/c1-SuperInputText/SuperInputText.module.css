@@ -1,7 +1,7 @@
 .superInput {
     border: 1px solid black;
     border-radius: 5px;
-    margin: 5px;
+    margin: 20px 5px 5px 5px;
     background-color: rgba(118,86,97, 226);
 }
 
@@ -9,6 +9,7 @@
     border: 1px solid red;
     border-radius: 5px;
     background-color: rgba(118,86,97, 226);
+    margin-top: 20px;
 }
 
 .error {

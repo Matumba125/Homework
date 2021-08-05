@@ -8,7 +8,7 @@ function HW7() {
     const [value, onChangeOption] = useState(arr[1])
 
     return (
-        <div>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <hr/>
             homeworks 7
 
@@ -37,5 +37,6 @@ function HW7() {
         </div>
     )
 }
+
 
 export default HW7
