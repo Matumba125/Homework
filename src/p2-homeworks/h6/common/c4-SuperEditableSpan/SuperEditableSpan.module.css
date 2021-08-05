@@ -1,0 +1,11 @@
+.superSpan {
+}
+
+.superSpan::before {
+    content: '🖊 ';
+    transform: rotate(270deg);
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin-right: 8px;
+}
