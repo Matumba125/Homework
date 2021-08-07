@@ -24,7 +24,7 @@
 .angle {
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgb(24, 37, 51) 0);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgb(24, 37, 51) 0);
 }
 
 .name {

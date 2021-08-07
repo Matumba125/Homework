@@ -1,4 +1,4 @@
-.header{
+.header {
     display: block;
     width: 300px;
     height: 50px;
@@ -6,7 +6,7 @@
     margin: 10px 0;
     border-radius: 4px;
     cursor: pointer;
-    background: linear-gradient(to left, rgba(118,86,97, 240) 40%, transparent 30%);
+    background: linear-gradient(to left, rgba(118, 86, 97, 240) 40%, transparent 30%);
 
 
     -webkit-transition: all .3s ease-in-out;
@@ -20,7 +20,8 @@
     -o-transform: translateX(-90%);
     transform: translateX(-90%);
 }
-.header:hover{
+
+.header:hover {
 
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -30,7 +31,7 @@
     background: none;
 }
 
-.header a{
+.header a {
     text-decoration: none;
     color: white;
     margin: 5px;

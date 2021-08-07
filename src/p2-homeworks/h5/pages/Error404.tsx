@@ -2,7 +2,14 @@ import React from 'react'
 
 function Error404() {
     return (
-        <div style={{display: 'flex', flexDirection: 'column', fontSize: '50px', color: "red", fontWeight: 'bold'}}>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: "center",
+            fontSize: '50px',
+            color: "red",
+            fontWeight: 'bold'
+        }}>
             <div>404</div>
             <div>Page not found!</div>
             <p>

@@ -1,7 +1,7 @@
 .affair {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    width: 250px;
 }
 
 
@@ -9,13 +9,13 @@
     padding-left: 15px;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
 }
 
-.buttons{
+.buttons {
     margin-left: 30px;
 }

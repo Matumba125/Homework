@@ -24,15 +24,15 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): a
     if (filter === 'all') {
         return affairs
     } else if (filter === 'low') {
-        return  affairs.filter(f => f.priority === 'low')
+        return affairs.filter(f => f.priority === 'low')
     } else if (filter === 'middle') {
         return affairs.filter(f => f.priority === 'middle')
     } else if (filter === 'high') {
-        return  affairs.filter(f => f.priority === 'high')
+        return affairs.filter(f => f.priority === 'high')
     }
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): any => {
-    return  affairs.filter(f => f._id !== _id)
+    return affairs.filter(f => f._id !== _id)
 }
 
 function HW2() {

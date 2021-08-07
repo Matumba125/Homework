@@ -7,14 +7,14 @@
 .select select {
     display: block;
     width: 100%; /* от ширины блока div */
-    padding: .75rem 2.5rem .75rem 1rem;/* отступы от текста до рамки */
+    padding: .75rem 2.5rem .75rem 1rem; /* отступы от текста до рамки */
     background: none; /* убираем фон */
     border: 1px solid #ccc; /* рамка */
-    border-radius: 3px;/* скругление полей формы */
-    -webkit-appearance: none;/* Chrome */
-    -moz-appearance: none;/* Firefox */
-    appearance: none;/* убираем дефолнтные стрелочки */
-    font-family: inherit;/* наследует от родителя */
+    border-radius: 3px; /* скругление полей формы */
+    -webkit-appearance: none; /* Chrome */
+    -moz-appearance: none; /* Firefox */
+    appearance: none; /* убираем дефолнтные стрелочки */
+    font-family: inherit; /* наследует от родителя */
     font-size: 1rem;
 }
 

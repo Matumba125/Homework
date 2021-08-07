@@ -13,19 +13,19 @@ function Affair(props: AffairPropsType) {
         props.deleteAffairCallback(props.affair._id);
     }
     const priorityStyle = {
-        color:  (props.affair.priority === "high") ? "red" :
-                (props.affair.priority === "middle") ? "yellow" :
-                (props.affair.priority === "low") ? "orange" : "black"
+        color: (props.affair.priority === "high") ? "red" :
+            (props.affair.priority === "middle") ? "yellow" :
+                (props.affair.priority === "low") ? "green" : ""
     }
 
 
     return (
-        <ul className={style.affair}>
-            <div>{props.affair.name}</div>
-            <div className={style.priority} style={priorityStyle}>{props.affair.priority}</div>
+        <div className={style.affair}>
+            <span>{props.affair.name}</span>
+            <span className={style.priority} style={priorityStyle}>{props.affair.priority}</span>
 
             <SuperButton onClick={deleteCallback} className={style.button}>X</SuperButton>
-        </ul>
+        </div>
     )
 }
 
