@@ -48,7 +48,7 @@ function HW8() {
             <div className={style.buttonLayer}>
                 <SuperButton onClick={sortUp}>sort up</SuperButton>
                 <SuperButton onClick={sortDown}>sort down</SuperButton>
-                <SuperButton onClick={checkAge}>check age</SuperButton>
+                <SuperButton onClick={checkAge}>check 18</SuperButton>
             </div>
 
             <hr/>
